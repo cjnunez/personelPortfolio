@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Volkhov&display=swap');
+
+footer {
+    background-color: grey;
+    padding: 10px 2rem;
+    text-align: center;
+    word-spacing: 3em;
+}
+
+footer nav {
+    padding: 5px;
+    display: inline-block;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer nav a:hover {
+    color: #8408ff;
+    transition: color 0.2s;
+}
+
+#tag-line {
+    font-family: 'Volkhov', 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.fa {
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
