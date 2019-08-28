@@ -1,10 +1,10 @@
 html {
     font-family: 'Montserrat', 'Times New Roman', Times, serif;
-    background: whitesmoke;
+    background: #FAF6FF;
 }
 
 header {
-    padding: 10px 2rem;
+    padding: 0px 0rem;
     text-align: right;
     word-spacing: 1em;
 }

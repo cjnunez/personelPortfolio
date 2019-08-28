@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Volkhov&display=swap');
 
 footer {
-    background-color: grey;
-    padding: 10px 2rem;
+    background-color: #27024C;
+    padding: 15px 2rem;
     text-align: center;
     word-spacing: 2em;
 }
@@ -23,7 +23,7 @@ footer nav a:hover {
 }
 
 #tag-line {
-    font-family: 'Volkhov', 'Times New Roman', Times, serif;
+    font-family: 'Helvetica', 'Times New Roman', Times, serif;
     font-size: 3rem;
     color: whitesmoke;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);

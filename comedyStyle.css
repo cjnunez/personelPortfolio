@@ -8,9 +8,9 @@
     height: 50vh;
     min-height: 300px;
     padding: 50px;
-    margin-bottom: -20px;
-    background: url("/images/comedyPic.jpg");
-    background-size: contain;
+    margin-bottom: -10px;
+    background: url("/images/newmircorphone.jpg");
+    background-size: cover;
     color: whitesmoke;
 
 
@@ -34,17 +34,46 @@ hr {
 }
 
 .youtube {
-    display: flex;
-    flex-flow: row wrap;
-    align-content: space-around;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-rows: repeat(4, 300px);
+    grid-column-gap: 10px;
+    align-items: center;
+    justify-items: center;
 }
 
+.video {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    /* align-self: stretch; */
+}
+
+.vidDisc {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    /* align-self: stretch; */
+}
+
+
+
 #comedy_paragraph {
+    text-align: center;
     min-height: 3rem;
     color: #808080;
     margin: 2rem auto;
     max-width: 800px;
     text-align: left;
     font-size: 2em;
+}
+
+#lightbulb {
+    height: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#comedyLine {
+    border-color: #8408ff;
+    margin-bottom: 0px;
 }
