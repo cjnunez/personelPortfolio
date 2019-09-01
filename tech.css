@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import 'resets.css';
+@import 'header.css';
+@import 'footer.css';
+
+#hero_tech {
+    height: 50vh;
+    min-height: 300px;
+    padding: 50px;
+    background: url("/images/desk.jpg");
+    background-size: cover;
+    color: whitesmoke;
+    background-color: #8408ff;
+    background-blend-mode: multiply;
+}
+
+#resume_pic {
+    align-items: center;
+}
