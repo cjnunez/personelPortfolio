@@ -4,9 +4,10 @@ html {
 }
 
 header {
+    font-size: 4vw;
     padding: 0px 0rem;
     text-align: right;
-    word-spacing: 1em;
+    word-spacing: 0.5em;
 }
 
 header nav {
@@ -15,6 +16,8 @@ header nav {
 }
 
 header nav a {
+    font-size: 2vw;
+
     text-decoration: none;
     color: whitesmoke;
 }

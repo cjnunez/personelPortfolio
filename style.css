@@ -8,7 +8,7 @@
 hr {
     border-color: #8408ff;
     border-width: 3px;
-    margin: 0px 0px;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -16,4 +16,12 @@ h2 {
     margin: 2em auto;
     max-width: 800px;
     text-align: left;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 2vw;
 }
