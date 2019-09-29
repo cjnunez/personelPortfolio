@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import 'resets.css';
-@import 'header.css';
-@import 'footer.css';
+/* @import 'header.css';
+@import 'footer.css'; */
 
 #hero_tech {
     height: 50vh;
@@ -10,10 +10,25 @@
     background: url("/images/desk.jpg");
     background-size: cover;
     color: whitesmoke;
-    background-color: #8408ff;
-    background-blend-mode: multiply;
+
+
+    /* background-color: #8408ff; */
+    background: linear-gradient(to right bottom, #8408ff);
+
+    /* background-blend-mode: multiply; */
 }
 
-#resume_pic {
-    align-content: center;
+#resume_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#column_1 #column_2 {
+    flex-basis: 100%;
+}
+
+#column_1 #column_2:nth-of-type(2),
+#column_1 #column_2:nth-of-type(3) {
+    flex-basis: 50%;
 }
