@@ -8,7 +8,7 @@
     height: 50vh;
     min-height: 300px;
     padding: 50px;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
     background: url("/images/newmircorphone.jpg");
     background-size: cover;
     color: whitesmoke;
@@ -31,7 +31,10 @@
 hr {
     border-color: #8408ff;
     border-width: 3px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
+
 
 .youtube {
     display: grid;

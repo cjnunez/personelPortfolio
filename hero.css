@@ -2,7 +2,7 @@
     height: 50vh;
     min-height: 300px;
     padding: 50px;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1488235331161-a610983be307?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&h=500&q=60);
     background-size: cover;
     color: whitesmoke;

@@ -4,11 +4,13 @@
 @import 'hero.css';
 @import 'footer.css';
 @import 'tech.css';
+@import 'comedyStyle.css';
 
 hr {
     border-color: #8408ff;
     border-width: 3px;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 h2 {
